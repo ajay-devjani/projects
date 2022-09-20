@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_verify_apps">
+
+    <fragment
+        android:id="@+id/navigation_verify_apps"
+        android:name="com.oss.proteger.ui.verify_apps.VerifyAppsFragment"
+        android:label="@string/title_verify_apps"
+        tools:layout="@layout/fragment_verify_apps" />
+
+    <fragment
+        android:id="@+id/navigation_verify_url"
+        android:name="com.oss.proteger.ui.verify_url.VerifyURLFragment"
+        android:label="@string/title_verify_URL"
+        tools:layout="@layout/fragment_verify_url" />
+
+    <fragment
+        android:id="@+id/navigation_scan_files"
+        android:name="com.oss.proteger.ui.scan_files.ScanFilesFragment"
+        android:label="@string/title_scan_files"
+        tools:layout="@layout/fragment_scan_files" />
+</navigation>

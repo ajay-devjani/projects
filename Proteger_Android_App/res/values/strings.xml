@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proteger</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_verify_apps">Verify Apps</string>
+    <string name="title_verify_URL">Verify URL</string>
+    <string name="title_scan_files">Scan Files</string>
+</resources>

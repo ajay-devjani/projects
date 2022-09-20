@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_verify_apps"
+        android:icon="@drawable/ic_apps"
+        android:title="@string/title_verify_apps" />
+
+    <item
+        android:id="@+id/navigation_verify_url"
+        android:icon="@drawable/ic_baseline_link_24"
+        android:title="@string/title_verify_URL" />
+
+    <item
+        android:id="@+id/navigation_scan_files"
+        android:icon="@drawable/ic_file_open"
+        android:title="@string/title_scan_files" />
+
+</menu>
